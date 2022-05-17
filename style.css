@@ -6,7 +6,15 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.image_to_title{
+    color: #2C2C2C;
+    margin: auto;
+    width: 70%;
+   
+}
+ .text-center .image_to_title{
+     width: 46%;
+ }
 a,
 button {
     transition: all .3s ease-in-out;
@@ -25,6 +33,9 @@ a:hover {
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+}
+.col-sm-3 .fa{
+    color:#000000 !important;
 }
 
 .bloc {
@@ -736,7 +747,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -772,15 +783,16 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1038,5 +1050,10 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+@media(max-width: 562px){
+    .image_a_cacher{
+        display: none;
     }
 }
