@@ -6,15 +6,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.image_to_title{
-    color: #2C2C2C;
-    margin: auto;
-    width: 70%;
-   
-}
- .text-center .image_to_title{
-     width: 46%;
- }
+
+ 
 a,
 button {
     transition: all .3s ease-in-out;
@@ -203,7 +196,15 @@ a:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
-
+.image_to_title{
+    color: #2C2C2C;
+    margin: auto;
+    width: 70%;
+   
+}
+.text-center .image_to_title{
+    width: 46%;
+}
 .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
@@ -834,7 +835,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
