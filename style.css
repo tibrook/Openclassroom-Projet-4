@@ -7,7 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
- 
+*{
+    box-sizing: border-box;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -93,7 +95,12 @@ a:hover {
     left: 0;
     right: 0;
 }
-
+.bloc-bg-texture h1{
+    color: #000 !important;
+}
+ .bloc-bg-texture  p{
+    color: #000 !important;
+}
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -373,7 +380,21 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.section_partenaires{
+    width: 100%;
+}
+.partenaires{
+    color:black !important;
+}
+.liste_partenaires a{
+    color:black !important;
+}
+.liste_partenaires {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
