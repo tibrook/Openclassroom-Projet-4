@@ -95,7 +95,7 @@ a:hover {
     left: 0;
     right: 0;
 }
-.bloc-bg-texture h1{
+.title_h1{
     color: #000 !important;
 }
  .bloc-bg-texture  p{
@@ -735,6 +735,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -774,6 +776,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-right: auto;
+    margin-left:auto;
 }
 
 .portfolio-row {
@@ -1077,5 +1081,9 @@ h4 {
 @media(max-width: 562px){
     .image_a_cacher{
         display: none;
+    }
+    .liste_partenaires{
+        
+        flex-direction: column;
     }
 }
