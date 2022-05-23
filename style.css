@@ -793,7 +793,20 @@ h4 {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
-
+q{
+    
+    color: #313030;
+    line-height: normal;
+    font-size: 20px;
+    width: 84%;
+    quotes: none;
+    font-style: italic;
+    display: block;
+    margin: auto;
+}
+cite{
+    color:   rgba(0, 0, 0, 0.5);
+}
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
