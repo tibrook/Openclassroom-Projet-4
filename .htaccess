@@ -45,11 +45,6 @@ Header unset Cache-Control
 Header unset ETag
 FileETag none
 
-# protect wpconfig.php
-<files wp-config.php>
-order allow,deny
-deny from all
-</files>
 
 # protect the htaccess file
 <files .htaccess>

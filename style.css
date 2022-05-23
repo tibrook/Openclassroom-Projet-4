@@ -96,7 +96,7 @@ a:hover {
     right: 0;
 }
 .title_h1{
-    color: #000 !important;
+    color: #FFFFFF !important;
 }
  .bloc-bg-texture  p{
     color: #000 !important;
@@ -710,7 +710,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -813,7 +813,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFF!important;
+    color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine {
