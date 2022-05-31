@@ -9,6 +9,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+li{
+    list-style: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -723,7 +727,11 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
+.reseauSociaux{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -737,7 +745,6 @@ p {
     margin-bottom: 20px;
 }
 .liste_partenaires{
-    list-style: none;
     width: 100%;
     display: flex;
     justify-content: space-around;
